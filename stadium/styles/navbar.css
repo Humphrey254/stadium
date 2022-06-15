@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+    }
+    a{
+        text-decoration: none;
+    }
+    .container{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo h1{
+        font-size: 4erm;
+        text-transform: uppercase;
+        color: rgb(240, 238, 238);
+        border:  2px solid rgb(13, 21, 23);
+    
+    }
+    .logo span
+    {
+        color:  rgb(13, 21, 23);
+    }
+    .section-title{
+        font-size: 4rem;
+        font-weight: 300;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: .2erm;
+        text-align: center;
+    }
+    .section-title:hover{
+        color: rgb(13, 21, 23);
+    }
+    .section-title span{
+        color:  rgb(13, 21, 23) ;
+    }
+    .section-title span:hover{
+        color: black;}
+    .cta{
+        display: inline-block;
+        padding: 10px 30px;
+        color:  rgb(13, 21, 23);
+        background-color: transparent;
+        border: 2px solid  rgb(13, 21, 23);
+        font-weight: bold;
+        margin-top: 30px;
+        transition: .3s ease background-color;
+        }
+    .cta:hover{
+        background-color:  rgb(13, 21, 23);
+        color: white;
+        }
+        /* heading section */
+    #header {
+    
+        position: fixed ;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: auto;
+    }
+    #header .header{
+        min-height: 8vh ;
+        background-color: rgb(31,30,30,0.24);
+    }
+    .header .nav-bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between ;
+        width: 100%;
+        height: 100%;
+        max-width: 1300px;
+        padding: 0 10px;
+    }
+    #header .nav-list ul{
+        text-decoration: none;
+        list-style: none;
+        display: inline-flex;
+        width: fit-content;
+        text-transform: uppercase;
+        padding: 10px;
+        margin: 20px;
+        justify-content: space-between;
+        color: white;
+       
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    #header .nav-list ul li a{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        padding:0  30px;
+    }
+    #header .nav-list ul li a:hover{
+        color:  rgb(13, 21, 23);
+    }
